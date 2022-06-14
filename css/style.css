@@ -4,6 +4,10 @@ h1, h2 {
 	text-transform: uppercase;
 }
 
+header p {
+	font-size: 20px;
+	}
+
 .container {
 	max-width: 1024px;	
 	margin: 50px auto;
@@ -12,6 +16,7 @@ h1, h2 {
 }
 
 .navigation {
+	font-size: 16px;	
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -35,8 +40,8 @@ h1, h2 {
 	justify-content: center;
 }
 
-.main {
-		width: 70%;
+main {
+	width: 70%;
 	padding: 20px;
 }
 
@@ -104,6 +109,16 @@ opacity: 0.8;
 	height: 180px;
 	border-radius: 100px;
 	border: 2px solid #ffffff;
+}
+
+.contacts a, .contacts span, .work-example a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.contacts li {
+	list-style: none;
 }
 
 footer {
